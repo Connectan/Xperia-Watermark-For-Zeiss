@@ -1,5 +1,7 @@
 # Xperia Watermark For Zeiss
 
+**日本語** | [English](README.en.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [한국어](README.ko.md)
+
 ![Android](https://img.shields.io/badge/Android-7.0%2B-3DDC84?logo=android&logoColor=white)
 ![Target](https://img.shields.io/badge/target-Android%2016%20(API%2036)-blue)
 ![Status](https://img.shields.io/badge/status-Test%20Beta%203-orange)
@@ -9,6 +11,8 @@
 
 写真の EXIF から機種名・焦点距離・F 値・シャッター速度・ISO・撮影日時を読み取り、写真の下にロゴと撮影情報の帯を付けて保存します。
 対象は **ZEISS 搭載の Xperia で撮った写真だけ** です（ほかの機種の写真は一覧に出ません）。
+
+> ZEISS 以外も含めて、すべての Xperia で使える版はこちら → [Xperia All Watermark](https://github.com/Connectan/Xperia-All-Watermark)
 
 ---
 
