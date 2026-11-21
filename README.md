@@ -4,7 +4,7 @@
 
 ![Android](https://img.shields.io/badge/Android-7.0%2B-3DDC84?logo=android&logoColor=white)
 ![Target](https://img.shields.io/badge/target-Android%2016%20(API%2036)-blue)
-![Status](https://img.shields.io/badge/version-1.0-brightgreen)
+![Status](https://img.shields.io/badge/version-1.0.1-brightgreen)
 ![Made with](https://img.shields.io/badge/Jetpack%20Compose-Kotlin-7F52FF?logo=kotlin&logoColor=white)
 
 **ZEISS レンズを積んだ Xperia で撮った写真に、Xperia × ZEISS のロゴと撮影情報の透かしを入れる Android アプリです。**
@@ -18,8 +18,8 @@
 
 ## ⚠️ 最初に読むべし（作者より）
 
-- 配布している APK は **v1.0（完成版）** です。パッケージ名を `com.connectan.xperiawatermark.zeiss` にして、デバッグビルドではないリリース版にしました。
-- Test Beta 3（パッケージ名 `com.example`）とはパッケージ名と署名が違うので、上書きでアップデートできません。Test Beta 3 を入れている人は、**アンインストールしてから** v1.0 を入れてください。
+- 配布している APK は **v1.0.1（完成版）** です。v1.0 を入れている人は、アンインストールせずにそのまま上書きでアップデートできます（v1.0.1 はアプリ内部の名前から `com.example` を取り除いた版です）。パッケージ名を `com.connectan.xperiawatermark.zeiss` にして、デバッグビルドではないリリース版にしました。
+- Test Beta 3（パッケージ名 `com.example`）とはパッケージ名と署名が違うので、上書きでアップデートできません。Test Beta 3 を入れている人は、**アンインストールしてから** v1.0.1 を入れてください。
 - 作者が Xperia を売ってしまって **もう実機で試す環境がありません**。そのため、今後の更新は未定です（というかほぼない）。
 - でも **一切のバグなく、問題なく使えます**（Test Beta 3 の時点で作者が実機で確認済み。v1.0 はパッケージ名と署名を変えただけで、中身は同じです）。安心して使って、どうぞ。
 
@@ -29,8 +29,8 @@
 
 👉 **[Releases](https://github.com/Connectan/Xperia-Watermark-For-Zeiss/releases/latest) から APK をダウンロード**
 
-ファイル名：`XperiaWatermarkForZeiss_v1.0.apk`（約 20 MB）
-SHA-256：`bf27ae5e4213ba6d2950033f721773c0476f0d0b467b7f476002890671daff2a`
+ファイル名：`XperiaWatermarkForZeiss_v1.0.1.apk`（約 20 MB）
+SHA-256：`5e12351f28cc1490e7f41f12b46f90c718aa708dc477482bc8655e4c82379dd2`
 
 ---
 

@@ -4,7 +4,7 @@
 
 ![Android](https://img.shields.io/badge/Android-7.0%2B-3DDC84?logo=android&logoColor=white)
 ![Target](https://img.shields.io/badge/target-Android%2016%20(API%2036)-blue)
-![Status](https://img.shields.io/badge/version-1.0-brightgreen)
+![Status](https://img.shields.io/badge/version-1.0.1-brightgreen)
 ![Made with](https://img.shields.io/badge/Jetpack%20Compose-Kotlin-7F52FF?logo=kotlin&logoColor=white)
 
 **An Android app that adds an Xperia × ZEISS logo and shooting info as a watermark to photos taken on an Xperia with a ZEISS lens.**
@@ -18,8 +18,8 @@ It only works with **photos taken on ZEISS-equipped Xperia phones** (photos from
 
 ## ⚠️ Read this first (from the author)
 
-- The APK here is **v1.0 (final release)**. The package name is now `com.connectan.xperiawatermark.zeiss`, and it's a release build, not a debug build.
-- Test Beta 3 (package name `com.example`) has a different package name and signature, so it can't be updated in place. If you have Test Beta 3 installed, **uninstall it first**, then install v1.0.
+- The APK here is **v1.0.1 (final release)**. If you already have v1.0, just install v1.0.1 over it; no need to uninstall (v1.0.1 removes `com.example` from the app's internal names). The package name is now `com.connectan.xperiawatermark.zeiss`, and it's a release build, not a debug build.
+- Test Beta 3 (package name `com.example`) has a different package name and signature, so it can't be updated in place. If you have Test Beta 3 installed, **uninstall it first**, then install v1.0.1.
 - I sold my Xperia, so **I no longer have a real device to test on**. Future updates are undecided (honestly, there probably won't be any).
 - But it **works without a single bug** (I checked Test Beta 3 on a real device; v1.0 only changes the package name and signature, the app itself is the same). Go ahead and use it with confidence.
 
@@ -29,8 +29,8 @@ It only works with **photos taken on ZEISS-equipped Xperia phones** (photos from
 
 👉 **[Download the APK from Releases](https://github.com/Connectan/Xperia-Watermark-For-Zeiss/releases/latest)**
 
-File name: `XperiaWatermarkForZeiss_v1.0.apk` (about 20 MB)
-SHA-256: `bf27ae5e4213ba6d2950033f721773c0476f0d0b467b7f476002890671daff2a`
+File name: `XperiaWatermarkForZeiss_v1.0.1.apk` (about 20 MB)
+SHA-256: `5e12351f28cc1490e7f41f12b46f90c718aa708dc477482bc8655e4c82379dd2`
 
 ---
 
