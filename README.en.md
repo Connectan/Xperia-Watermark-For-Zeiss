@@ -4,7 +4,7 @@
 
 ![Android](https://img.shields.io/badge/Android-7.0%2B-3DDC84?logo=android&logoColor=white)
 ![Target](https://img.shields.io/badge/target-Android%2016%20(API%2036)-blue)
-![Status](https://img.shields.io/badge/status-Test%20Beta%203-orange)
+![Status](https://img.shields.io/badge/version-1.0-brightgreen)
 ![Made with](https://img.shields.io/badge/Jetpack%20Compose-Kotlin-7F52FF?logo=kotlin&logoColor=white)
 
 **An Android app that adds an Xperia × ZEISS logo and shooting info as a watermark to photos taken on an Xperia with a ZEISS lens.**
@@ -18,9 +18,10 @@ It only works with **photos taken on ZEISS-equipped Xperia phones** (photos from
 
 ## ⚠️ Read this first (from the author)
 
-- The APK here is **still a sample build (Test Beta 3)**. The package name is still `com.example`, and it's a debug build.
+- The APK here is **v1.0 (final release)**. The package name is now `com.connectan.xperiawatermark.zeiss`, and it's a release build, not a debug build.
+- Test Beta 3 (package name `com.example`) has a different package name and signature, so it can't be updated in place. If you have Test Beta 3 installed, **uninstall it first**, then install v1.0.
 - I sold my Xperia, so **I no longer have a real device to test on**. Future updates are undecided (honestly, there probably won't be any).
-- But it **works without a single bug** (I checked it on a real device). Go ahead and use it with confidence.
+- But it **works without a single bug** (I checked Test Beta 3 on a real device; v1.0 only changes the package name and signature, the app itself is the same). Go ahead and use it with confidence.
 
 ---
 
@@ -28,7 +29,8 @@ It only works with **photos taken on ZEISS-equipped Xperia phones** (photos from
 
 👉 **[Download the APK from Releases](https://github.com/Connectan/Xperia-Watermark-For-Zeiss/releases/latest)**
 
-File name: `Xperia_Watermark_TestBeta.3_Lastest.apk` (about 22 MB)
+File name: `XperiaWatermarkForZeiss_v1.0.apk` (about 20 MB)
+SHA-256: `bf27ae5e4213ba6d2950033f721773c0476f0d0b467b7f476002890671daff2a`
 
 ---
 
@@ -149,8 +151,8 @@ A. If there's no SD card, or it can't be detected, the option changes to "Intern
 **Q. I want to process the same photo again**
 A. Just select a photo marked "済" (done) again and you can **save it again**.
 
-**Q. It conflicts with other `com.example` apps**
-A. Because it's a sample build, the package name is `com.example`. If another app with the same package name is already installed, it may be overwritten or conflict.
+**Q. I can't update over Test Beta 3**
+A. v1.0 has a new package name (`com.connectan.xperiawatermark.zeiss`) and signature, so Android treats it as a different app. Uninstall Test Beta 3 first, then install v1.0.
 
 ---
 

@@ -4,7 +4,7 @@
 
 ![Android](https://img.shields.io/badge/Android-7.0%2B-3DDC84?logo=android&logoColor=white)
 ![Target](https://img.shields.io/badge/target-Android%2016%20(API%2036)-blue)
-![Status](https://img.shields.io/badge/status-Test%20Beta%203-orange)
+![Status](https://img.shields.io/badge/version-1.0-brightgreen)
 ![Made with](https://img.shields.io/badge/Jetpack%20Compose-Kotlin-7F52FF?logo=kotlin&logoColor=white)
 
 **ZEISS 렌즈를 탑재한 Xperia로 찍은 사진에 Xperia × ZEISS 로고와 촬영 정보 워터마크를 넣는 Android 앱입니다.**
@@ -18,9 +18,10 @@
 
 ## ⚠️ 꼭 읽어 주세요 (제작자로부터)
 
-- 배포 중인 APK는 **아직 샘플 상태(Test Beta 3)** 입니다. 패키지명이 `com.example` 그대로이고, 디버그 빌드입니다.
+- 배포 중인 APK는 **v1.0(정식판)** 입니다. 패키지명을 `com.connectan.xperiawatermark.zeiss`로 바꾸고, 디버그 빌드가 아닌 릴리스 빌드로 만들었습니다.
+- Test Beta 3(패키지명 `com.example`)과는 패키지명과 서명이 달라서 덮어쓰기 업데이트가 되지 않습니다. Test Beta 3을 설치한 분은 **먼저 삭제한 뒤** v1.0을 설치해 주세요.
 - 제작자가 Xperia를 팔아 버려서 **이제 실기기로 테스트할 환경이 없습니다**. 그래서 앞으로의 업데이트는 미정입니다(사실상 거의 없을 겁니다).
-- 그래도 **버그 하나 없이 문제없이 쓸 수 있습니다**(제작자가 실기기에서 확인 완료). 안심하고 쓰세요.
+- 그래도 **버그 하나 없이 문제없이 쓸 수 있습니다**(Test Beta 3 시점에 제작자가 실기기에서 확인 완료. v1.0은 패키지명과 서명만 바꿨고 내용은 같습니다). 안심하고 쓰세요.
 
 ---
 
@@ -28,7 +29,8 @@
 
 👉 **[Releases에서 APK 다운로드](https://github.com/Connectan/Xperia-Watermark-For-Zeiss/releases/latest)**
 
-파일명: `Xperia_Watermark_TestBeta.3_Lastest.apk`(약 22 MB)
+파일명: `XperiaWatermarkForZeiss_v1.0.apk`(약 20 MB)
+SHA-256: `bf27ae5e4213ba6d2950033f721773c0476f0d0b467b7f476002890671daff2a`
 
 ---
 
@@ -149,8 +151,8 @@ A. SD 카드가 없거나 인식되지 않을 때는 "本体ストレージ (SD�
 **Q. 같은 사진을 한 번 더 처리하고 싶어요**
 A. "済"(완료) 표시가 붙은 사진도 다시 선택하면 **다시 저장** 할 수 있습니다.
 
-**Q. 다른 `com.example` 앱과 함께 설치할 수 없어요**
-A. 샘플 상태라서 패키지명이 `com.example`로 되어 있습니다. 같은 패키지명의 앱이 이미 설치되어 있으면 덮어쓰거나 충돌할 수 있습니다.
+**Q. Test Beta 3에서 덮어쓰기 업데이트가 안 돼요**
+A. v1.0은 패키지명(`com.connectan.xperiawatermark.zeiss`)과 서명이 바뀌어서 다른 앱으로 취급됩니다. Test Beta 3을 삭제한 뒤 설치해 주세요.
 
 ---
 

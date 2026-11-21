@@ -4,7 +4,7 @@
 
 ![Android](https://img.shields.io/badge/Android-7.0%2B-3DDC84?logo=android&logoColor=white)
 ![Target](https://img.shields.io/badge/target-Android%2016%20(API%2036)-blue)
-![Status](https://img.shields.io/badge/status-Test%20Beta%203-orange)
+![Status](https://img.shields.io/badge/version-1.0-brightgreen)
 ![Made with](https://img.shields.io/badge/Jetpack%20Compose-Kotlin-7F52FF?logo=kotlin&logoColor=white)
 
 **一款替搭載蔡司（ZEISS）鏡頭的 Xperia 拍攝的照片，加上 Xperia × ZEISS 標誌和拍攝資訊浮水印的 Android App。**
@@ -18,9 +18,10 @@
 
 ## ⚠️ 必讀（來自作者）
 
-- 這裡發布的 APK **還是範例狀態（Test Beta 3）**。套件名稱還是 `com.example`，也還是除錯版本。
+- 這裡發布的 APK 是 **v1.0（正式版）**。套件名稱改成了 `com.connectan.xperiawatermark.zeiss`，而且是正式（release）版本，不再是除錯版本。
+- Test Beta 3（套件名稱 `com.example`）的套件名稱和簽章都不同，無法覆蓋更新。裝了 Test Beta 3 的話，請 **先解除安裝** 再安裝 v1.0。
 - 作者已經把 Xperia 賣掉了，**沒有實機可以測試了**。所以之後會不會更新還沒決定（其實大概不會了）。
-- 不過 **完全沒有 bug，可以正常使用**（作者已在實機上確認）。放心用吧。
+- 不過 **完全沒有 bug，可以正常使用**（作者在 Test Beta 3 時已在實機上確認；v1.0 只改了套件名稱和簽章，內容完全相同）。放心用吧。
 
 ---
 
@@ -28,7 +29,8 @@
 
 👉 **[從 Releases 下載 APK](https://github.com/Connectan/Xperia-Watermark-For-Zeiss/releases/latest)**
 
-檔名：`Xperia_Watermark_TestBeta.3_Lastest.apk`（約 22 MB）
+檔名：`XperiaWatermarkForZeiss_v1.0.apk`（約 20 MB）
+SHA-256：`bf27ae5e4213ba6d2950033f721773c0476f0d0b467b7f476002890671daff2a`
 
 ---
 
@@ -149,8 +151,8 @@ A. 沒有插 SD 卡或無法辨識時，會顯示「本体ストレージ (SD未
 **Q. 想再處理一次同一張照片**
 A. 帶有「済」標記的照片重新選取後就可以 **再次儲存**。
 
-**Q. 無法和其他 `com.example` App 共存**
-A. 由於是範例狀態，套件名稱是 `com.example`。如果已經裝了相同套件名稱的 App，可能會被覆蓋或衝突。
+**Q. 無法從 Test Beta 3 覆蓋更新**
+A. v1.0 的套件名稱（`com.connectan.xperiawatermark.zeiss`）和簽章都變了，會被當作另一個 App。請先解除安裝 Test Beta 3 再安裝。
 
 ---
 
